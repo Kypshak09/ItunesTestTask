@@ -35,6 +35,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "List of Songs"
         tableView.register(SongTableViewCell.self, forCellReuseIdentifier: identifier)
         view.backgroundColor = .white
         tableView.delegate = self
@@ -126,7 +127,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        let selectedSong = songs[indexPath.row]
+        let detailViewController = DetailsViewController()
+        detailViewController.song = selectedSong
+        self.navigationController?.pushViewController(detailViewController, animated: true)
     }
 }
 // MARK: - TextFieldDelegate

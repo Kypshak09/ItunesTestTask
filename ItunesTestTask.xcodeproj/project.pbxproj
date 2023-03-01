@@ -17,7 +17,6 @@
 		258FA00629AE263400402FD7 /* SongRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258FA00529AE263400402FD7 /* SongRequest.swift */; };
 		258FA00829AE842C00402FD7 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258FA00729AE842C00402FD7 /* SongTableViewCell.swift */; };
 		258FA00A29AEE40400402FD7 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258FA00929AEE40400402FD7 /* DetailsViewController.swift */; };
-		258FA00C29AEE67700402FD7 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258FA00B29AEE67700402FD7 /* Protocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +31,6 @@
 		258FA00529AE263400402FD7 /* SongRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRequest.swift; sourceTree = "<group>"; };
 		258FA00729AE842C00402FD7 /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
 		258FA00929AEE40400402FD7 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
-		258FA00B29AEE67700402FD7 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +67,6 @@
 				258FA00029AE225500402FD7 /* Model */,
 				258FA00129AE225900402FD7 /* View */,
 				258FA00229AE225E00402FD7 /* Controller */,
-				258FA00B29AEE67700402FD7 /* Protocol.swift */,
 				258F9FE929AE1D8D00402FD7 /* AppDelegate.swift */,
 				258F9FEB29AE1D8D00402FD7 /* SceneDelegate.swift */,
 				258F9FF229AE1D9000402FD7 /* Assets.xcassets */,
@@ -184,7 +181,6 @@
 				258FA00829AE842C00402FD7 /* SongTableViewCell.swift in Sources */,
 				258F9FEE29AE1D8D00402FD7 /* ViewController.swift in Sources */,
 				258FA00629AE263400402FD7 /* SongRequest.swift in Sources */,
-				258FA00C29AEE67700402FD7 /* Protocol.swift in Sources */,
 				258F9FEA29AE1D8D00402FD7 /* AppDelegate.swift in Sources */,
 				258FA00A29AEE40400402FD7 /* DetailsViewController.swift in Sources */,
 				258F9FEC29AE1D8D00402FD7 /* SceneDelegate.swift in Sources */,

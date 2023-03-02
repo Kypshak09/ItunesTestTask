@@ -45,7 +45,7 @@ class ViewController: ViewControllerUI {
                 return
             }
             guard let songs = songs else {
-                print("No songs found for keyword: \(songs)")
+                print("No songs found for keyword")
                 DispatchQueue.main.async {
                     let alertController = UIAlertController(title: "Error", message: "No songs found for your word, try another method", preferredStyle: .alert)
                     let action = UIAlertAction(title: "Ok", style: .default)

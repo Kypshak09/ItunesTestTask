@@ -51,6 +51,51 @@
 			<key>uniqueIdentifier</key>
 			<string>0123831B-46D1-4261-AD54-4508E3A79EF3</string>
 		</dict>
+		<key>027B52FB-C34E-4197-8182-90BB060022FD</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>593999EE-DDD6-4EB9-B550-96FE8CF18663</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ItunesTestTask-2023.03.02_18-45-48-+0600.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ItunesTestTask project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ItunesTestTask</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ItunesTestTask</string>
+			<key>timeStartedRecording</key>
+			<real>699453948.47425604</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ItunesTestTask</string>
+			<key>uniqueIdentifier</key>
+			<string>027B52FB-C34E-4197-8182-90BB060022FD</string>
+		</dict>
 		<key>0324EA1F-9A59-44E2-B098-D2E9441C42C4</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -185,6 +230,51 @@
 			<string>Run ItunesTestTask</string>
 			<key>uniqueIdentifier</key>
 			<string>0A9E8D13-6F85-4606-85FA-5273510C5554</string>
+		</dict>
+		<key>0ADD41A8-7137-4E34-8411-7C57F7509DE2</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>0C4E3EFE-9A46-4003-B871-96818DA4CE30</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ItunesTestTask-2023.03.02_19-00-09-+0600.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ItunesTestTask project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ItunesTestTask</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ItunesTestTask</string>
+			<key>timeStartedRecording</key>
+			<real>699454809.73139596</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ItunesTestTask</string>
+			<key>uniqueIdentifier</key>
+			<string>0ADD41A8-7137-4E34-8411-7C57F7509DE2</string>
 		</dict>
 		<key>10F5C5DF-DC52-4DAE-9B64-66107938A075</key>
 		<dict>
@@ -951,6 +1041,96 @@
 			<key>uniqueIdentifier</key>
 			<string>58B16347-27E6-48AA-9A93-707F02680549</string>
 		</dict>
+		<key>5A149670-FED8-4D9D-8701-63FC1721B987</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>62DC03EE-D17B-4AFD-9F86-D994A3DF46FD</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ItunesTestTask-2023.03.02_19-00-19-+0600.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ItunesTestTask project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ItunesTestTask</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ItunesTestTask</string>
+			<key>timeStartedRecording</key>
+			<real>699454819.09368396</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ItunesTestTask</string>
+			<key>uniqueIdentifier</key>
+			<string>5A149670-FED8-4D9D-8701-63FC1721B987</string>
+		</dict>
+		<key>5B7AE250-70B4-4B37-B43D-08BAA76B3A0D</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>6EB230F0-1090-4A05-A87D-B8AD4A475F39</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ItunesTestTask-2023.03.02_19-06-50-+0600.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ItunesTestTask project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ItunesTestTask</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ItunesTestTask</string>
+			<key>timeStartedRecording</key>
+			<real>699455210.10902095</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ItunesTestTask</string>
+			<key>uniqueIdentifier</key>
+			<string>5B7AE250-70B4-4B37-B43D-08BAA76B3A0D</string>
+		</dict>
 		<key>68CF26CD-F43F-4788-B810-22653F228692</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -995,6 +1175,51 @@
 			<string>Run ItunesTestTask</string>
 			<key>uniqueIdentifier</key>
 			<string>68CF26CD-F43F-4788-B810-22653F228692</string>
+		</dict>
+		<key>70A6A0C4-5FCE-4ECE-9AD9-3FC6B6250445</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>30D0B8DD-D0C8-438F-BED7-119AD9789486</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ItunesTestTask-2023.03.02_18-50-42-+0600.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ItunesTestTask project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ItunesTestTask</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ItunesTestTask</string>
+			<key>timeStartedRecording</key>
+			<real>699454242.55061305</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ItunesTestTask</string>
+			<key>uniqueIdentifier</key>
+			<string>70A6A0C4-5FCE-4ECE-9AD9-3FC6B6250445</string>
 		</dict>
 		<key>7DDDC777-52B3-4ED6-A62B-BDBA2A870D99</key>
 		<dict>
@@ -1176,6 +1401,51 @@
 			<key>uniqueIdentifier</key>
 			<string>8DCCA59F-8DB5-45D6-A3FA-719CB27D4BAA</string>
 		</dict>
+		<key>90071AEB-F668-4A79-9311-AB1AD586CF81</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>019FD158-95F4-46E7-8CEA-A698AC3E9DF5</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ItunesTestTask-2023.03.02_18-57-53-+0600.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ItunesTestTask project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ItunesTestTask</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ItunesTestTask</string>
+			<key>timeStartedRecording</key>
+			<real>699454673.59014404</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ItunesTestTask</string>
+			<key>uniqueIdentifier</key>
+			<string>90071AEB-F668-4A79-9311-AB1AD586CF81</string>
+		</dict>
 		<key>A19AB1AD-0617-444C-BA3A-973378D2D13F</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -1220,6 +1490,51 @@
 			<string>Run ItunesTestTask</string>
 			<key>uniqueIdentifier</key>
 			<string>A19AB1AD-0617-444C-BA3A-973378D2D13F</string>
+		</dict>
+		<key>A1C55520-871A-4B5E-B2BC-5A8AD851A95B</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>15BF39F1-5E2F-465C-939A-331F821C7507</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ItunesTestTask-2023.03.02_19-12-34-+0600.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ItunesTestTask project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ItunesTestTask</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ItunesTestTask</string>
+			<key>timeStartedRecording</key>
+			<real>699455554.127671</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ItunesTestTask</string>
+			<key>uniqueIdentifier</key>
+			<string>A1C55520-871A-4B5E-B2BC-5A8AD851A95B</string>
 		</dict>
 		<key>A324017A-F831-4B42-8956-2AE573E77400</key>
 		<dict>
@@ -1581,6 +1896,51 @@
 			<key>uniqueIdentifier</key>
 			<string>C903C91A-C7B5-4138-8DC8-1666108FC737</string>
 		</dict>
+		<key>C91EF991-06F6-4F06-A579-0BFBC898F1FB</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>2A082251-BBC7-4D68-9E5B-3F73200B4CB5</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ItunesTestTask-2023.03.02_19-02-34-+0600.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ItunesTestTask project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ItunesTestTask</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ItunesTestTask</string>
+			<key>timeStartedRecording</key>
+			<real>699454954.48303795</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ItunesTestTask</string>
+			<key>uniqueIdentifier</key>
+			<string>C91EF991-06F6-4F06-A579-0BFBC898F1FB</string>
+		</dict>
 		<key>CBC6684D-F3DC-4F9B-9246-A35B730C64D5</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
@@ -1670,6 +2030,51 @@
 			<string>Run ItunesTestTask</string>
 			<key>uniqueIdentifier</key>
 			<string>D1379E73-78A2-43D6-A82D-124C8F6E49A9</string>
+		</dict>
+		<key>D23102BD-9761-4CDA-AFA6-E4AA7C0F08AA</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>76B21760-93B1-4F69-B8C5-DA20A7E4ECF7</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-ItunesTestTask-2023.03.02_19-13-49-+0600.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>ItunesTestTask project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>ItunesTestTask</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run ItunesTestTask</string>
+			<key>timeStartedRecording</key>
+			<real>699455629.86449802</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run ItunesTestTask</string>
+			<key>uniqueIdentifier</key>
+			<string>D23102BD-9761-4CDA-AFA6-E4AA7C0F08AA</string>
 		</dict>
 		<key>DB04A3ED-889F-4D9B-88EB-62C75B490802</key>
 		<dict>

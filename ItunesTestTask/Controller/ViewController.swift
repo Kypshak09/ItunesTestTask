@@ -8,28 +8,9 @@
 import UIKit
 import SnapKit
 
-class ViewController: UIViewController {
+class ViewController: ViewControllerUI {
     
     private let identifier = "CellIdentifier"
-    
-    let tableView: UITableView = {
-        let table = UITableView()
-        return table
-    }()
-    
-    let textField: UITextField = {
-        let search = UITextField()
-        search.backgroundColor = UIColor(red: 0.941, green: 0.955, blue: 0.97, alpha: 1)
-        search.tintColor = .black
-        search.placeholder = "Write your song"
-        search.layer.cornerRadius = 5
-        return search
-    }()
-    
-    let indicatorOfActivity: UIActivityIndicatorView = {
-        let activity = UIActivityIndicatorView()
-        return activity
-    }()
     
     var songs = [StructOfSong]()
     
@@ -55,10 +36,22 @@ class ViewController: UIViewController {
         SongRequest.shared.requestSong(keyword: keyword) { songs, error in
             if let error = error {
                 print("Error fetching songs: \(error)")
+                DispatchQueue.main.async {
+                    let alertController = UIAlertController(title: "Error", message: "Error fetching songs, try later", preferredStyle: .alert)
+                    let action = UIAlertAction(title: "Ok", style: .default)
+                    alertController.addAction(action)
+                    self.present(alertController, animated: true, completion: nil)
+                }
                 return
             }
             guard let songs = songs else {
-                print("No songs found for keyword:")
+                print("No songs found for keyword: \(songs)")
+                DispatchQueue.main.async {
+                    let alertController = UIAlertController(title: "Error", message: "No songs found for your word, try another method", preferredStyle: .alert)
+                    let action = UIAlertAction(title: "Ok", style: .default)
+                    alertController.addAction(action)
+                    self.present(alertController, animated: true, completion: nil)
+                }
                 return
             }
             
@@ -68,29 +61,6 @@ class ViewController: UIViewController {
                 self.tableView.reloadData()
                 self.indicatorOfActivity.stopAnimating()
             }
-            }
-    }
-    
-    private func setConstraints() {
-        view.addSubview(tableView)
-        tableView.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(145)
-            make.centerX.equalToSuperview()
-            make.width.equalToSuperview()
-            make.bottom.equalToSuperview()
-        }
-        view.addSubview(textField)
-        textField.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(100)
-            make.centerX.equalToSuperview()
-            make.width.equalToSuperview().offset(-40)
-            make.height.equalTo(40)
-        }
-        
-        view.addSubview(indicatorOfActivity)
-        indicatorOfActivity.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(60)
-            make.trailing.equalToSuperview().offset(-30)
             }
     }
 }

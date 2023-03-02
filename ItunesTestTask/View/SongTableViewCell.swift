@@ -22,12 +22,12 @@ class SongTableViewCell: UITableViewCell {
         return label
     }()
     
-    let trackName: UILabel = {
+     let trackName: UILabel = {
         let label = UILabel()
         return label
     }()
     
-    let imageOfAlbum: UIImageView = {
+     let imageOfAlbum: UIImageView = {
         let image = UIImageView()
         image.layer.cornerRadius = 20
         return image

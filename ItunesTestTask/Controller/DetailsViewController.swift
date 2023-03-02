@@ -15,34 +15,40 @@ class DetailsViewController: UIViewController {
     var audioPlayer: AVPlayer?
     
     let playPauseButton: UIButton = {
-        let button = UIButton(type: .system)
-        button.setImage(UIImage(named: "play"), for: .normal)
+        let button = UIButton()
+        button.backgroundColor = .black
+        button.setImage(UIImage(systemName: "play.fill"), for: .normal)
+        button.tintColor = UIColor(red:  0.992, green: 0.655, blue: 0.412, alpha: 1)
         button.addTarget(self, action: #selector(playPauseButtonTapped), for: .touchUpInside)
         return button
     }()
     
     let viewOfNames: UIView = {
         let view = UIView()
+        view.backgroundColor = .black
         return view
     }()
     
     let nameOfSong: UILabel = {
         let label = UILabel()
-        label.textColor = UIColor(red: 0.2, green: 0.2, blue: 0.2, alpha: 1)
-        label.font = UIFont(name: "Poppins-SemiBold", size: 18)
+        label.textColor = UIColor(red:  0.992, green: 0.655, blue: 0.412, alpha: 1)
+        label.numberOfLines = 3
+        label.textAlignment = .center
+        label.font = UIFont(name: "Arial Bold", size: 18)
         return label
     }()
     
     let nameOfArtist: UILabel = {
         let label = UILabel()
-        label.textColor = UIColor(red: 0.31, green: 0.31, blue: 0.31, alpha: 1)
-        label.font = UIFont(name: "Poppins-Regular", size: 18)
+        label.font = UIFont(name: "Arial", size: 18)
+        label.textColor = .white
         return label
     }()
     
     let imageOfAlbum: UIImageView = {
         let image = UIImageView()
         image.layer.cornerRadius = 15
+        image.layer.masksToBounds = true
         return image
     }()
     
@@ -51,18 +57,18 @@ class DetailsViewController: UIViewController {
         
         if audioPlayer.timeControlStatus == .playing {
             audioPlayer.pause()
-            playPauseButton.setImage(UIImage(named: "play"), for: .normal)
+            playPauseButton.setImage(UIImage(systemName: "play.fill"), for: .normal)
         } else {
             audioPlayer.play()
-            playPauseButton.setImage(UIImage(named: "pause"), for: .normal)
+            playPauseButton.setImage(UIImage(systemName: "pause.fill"), for: .normal)
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        view.backgroundColor = .black
         title = "Now playing"
-        navigationItem.leftBarButtonItem?.tintColor = .black
+        self.navigationController?.navigationBar.tintColor = UIColor(red:  0.992, green: 0.655, blue: 0.412, alpha: 1)
         nameOfSong.text = song?.trackName
         nameOfArtist.text = song?.artistName
         if let url = URL(string: song?.artworkUrl100 ?? "") {
@@ -87,7 +93,7 @@ class DetailsViewController: UIViewController {
         view.addSubview(viewOfNames)
         viewOfNames.snp.makeConstraints { make in
             make.top.equalToSuperview().offset(450)
-            make.height.equalTo(45)
+            make.height.equalTo(60)
             make.centerX.equalToSuperview()
             make.width.equalTo(146)
         }
@@ -95,10 +101,11 @@ class DetailsViewController: UIViewController {
         nameOfSong.snp.makeConstraints { make in
             make.top.equalToSuperview()
             make.centerX.equalToSuperview()
+            make.width.equalTo(300)
         }
         viewOfNames.addSubview(nameOfArtist)
         nameOfArtist.snp.makeConstraints { make in
-            make.top.equalToSuperview().offset(25)
+            make.top.equalToSuperview().offset(40)
             make.centerX.equalToSuperview()
         }
         
@@ -111,8 +118,9 @@ class DetailsViewController: UIViewController {
         
         view.addSubview(playPauseButton)
         playPauseButton.snp.makeConstraints { make in
-            make.top.equalTo(viewOfNames.snp.bottom).offset(20)
+            make.top.equalTo(viewOfNames.snp.bottom).offset(35)
             make.centerX.equalToSuperview()
+            make.width.height.equalTo(100)
         }
     }
 }

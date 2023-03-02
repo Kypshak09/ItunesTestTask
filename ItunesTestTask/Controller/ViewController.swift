@@ -43,6 +43,8 @@ class ViewController: UIViewController {
         tableView.separatorStyle = .none
         tableView.bounces = false
         textField.delegate = self
+        textField.clearButtonMode = .whileEditing
+        textField.autocorrectionType = .no
         indicatorOfActivity.hidesWhenStopped = true
         setConstraints()
     }
@@ -59,10 +61,7 @@ class ViewController: UIViewController {
                 print("No songs found for keyword:")
                 return
             }
-            print("Fetched \(songs.count) songs:")
-            for song in songs {
-                print("\(song.trackName) by \(song.artistName)")
-            }
+            
             let filteredSongs = songs.filter { $0.kind == "song" }
             self.songs = filteredSongs
             DispatchQueue.main.async {
@@ -90,7 +89,8 @@ class ViewController: UIViewController {
         
         view.addSubview(indicatorOfActivity)
         indicatorOfActivity.snp.makeConstraints { make in
-            make.center.equalToSuperview()
+            make.top.equalToSuperview().offset(60)
+            make.trailing.equalToSuperview().offset(-30)
             }
     }
 }
@@ -120,6 +120,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
                     }
                 }
             }
+        cell.selectionStyle = .none
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -131,12 +132,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         let detailViewController = DetailsViewController()
         detailViewController.song = selectedSong
         self.navigationController?.pushViewController(detailViewController, animated: true)
+//        present(detailViewController, animated: true)
     }
 }
 // MARK: - TextFieldDelegate
 extension ViewController: UITextFieldDelegate {
-
-    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         if let keyword = textField.text?.trimmingCharacters(in: .whitespacesAndNewlines).replacingOccurrences(of: " ", with: "_").lowercased(),keyword.count >= 3,!keyword.isEmpty {
